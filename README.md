@@ -33,10 +33,10 @@
 
 <p align="center"><strong>Menu</strong></p>
 <p align="center">
-   <img src="./Screenshots/MenuPL.png" alt="Menu Portrait Light" width="200"/> 
-   <img src="./Screenshots/MenuPD.png" alt="Menu Portrait Dark" width="200"/> 
-   <img src="./Screenshots/MenuLL.png" alt="Menu Landscape Light" width="200"/> 
-   <img src="./Screenshots/MenuLD.png" alt="Menu Landscape Dark" width="200"/> 
+   <img src="./Screenshots/MenuPL.PNG" alt="Menu Portrait Light" width="200"/> 
+   <img src="./Screenshots/MenuPD.PNG" alt="Menu Portrait Dark" width="200"/> 
+   <img src="./Screenshots/MenuLL.PNG" alt="Menu Landscape Light" width="200"/> 
+   <img src="./Screenshots/MenuLD.PNG" alt="Menu Landscape Dark" width="200"/> 
 </p>
 
 <p align="center"><strong>Game Interface</strong></p>
@@ -47,10 +47,10 @@
 
 <p align="center"><strong>Game Results</strong></p>
 <p align="center">
-   <img src="./Screenshots/ResultsPL.png" alt="Result Portrait Light" width="200"/> 
-   <img src="./Screenshots/ResultsPD.png" alt="Result Portrait Dark" width="200"/> 
-   <img src="./Screenshots/ResultsLL.png" alt="Result Landscape Light" width="200"/> 
-   <img src="./Screenshots/ResultLD.png" alt="Result Landscape Dark" width="200"/> 
+   <img src="./Screenshots/ResultsPL.PNG" alt="Result Portrait Light" width="200"/> 
+   <img src="./Screenshots/ResultsPD.PNG" alt="Result Portrait Dark" width="200"/> 
+   <img src="./Screenshots/ResultsLL.PNG" alt="Result Landscape Light" width="200"/> 
+   <img src="./Screenshots/ResultLD.PNG" alt="Result Landscape Dark" width="200"/> 
 </p>
 
 ---
