@@ -1,74 +1,103 @@
-# 🔥 Card Battle Game (iOS)
+# Card Clash
 
-A dynamic, animated two-player (user vs. PC) card game for iOS built with UIKit. Players compete over a series of rounds to collect the highest score. The game features smooth card-flip animations, countdown timers, sound effects, and automatic theme adaptation for light and dark modes.
-
----
-
-## 📱 Features
-
-- 🎴 **Randomized card decks** for user and bot
-- ⏱ **Countdown timer** before each round
-- 💥 **Animated card flip** with sound effects
-- 🔊 **Background music** and round result sounds
-- 🎉 **Result screen** after all rounds
-- 🌙 **Supports Light and Dark Mode**
-- 📱 **Landscape-only** game orientation
+**Card Clash** is a competitive iOS card game designed for quick fun matches between a player and a computer opponent. Players flip cards across several rounds, with the highest card winning each round. The game features animated card flips, background music, and sound effects for immersive gameplay.
 
 ---
 
-## 🚀 Getting Started
+## 🕹️ Features
 
-### 1. Clone the repository
+### 🎴 1. Card-Based Gameplay
+- **Real-Time Match Rounds**: Each match includes 5 rounds. In each round, both the player and the bot flip a card. The higher card wins.
+- **Deck Generation**: A shuffled deck is split into two hands, ensuring random and fair gameplay for each session.
 
+### 💫 2. Interactive UI and Animations
+- **Card Flip Animations**: Smooth 3D-like flip transitions for both player’s and opponent’s cards.
+- **Responsive Labels**: Score updates and round numbers are reflected in real time.
+
+### 🔊 3. Sound Effects and Music
+- **Flip Sound**: Hear a satisfying sound effect whenever cards are flipped.
+- **Win/Lose/Tie Effects**: Unique sounds for different round outcomes.
+- **Background Music**: Looped music that plays throughout the game, with pause/resume on app backgrounding or user navigation.
+
+### 🧠 4. Game Flow Management
+- **Countdown Timer**: Countdown before each round begins to build anticipation.
+- **Result Transition**: The game transitions to a result screen showing the winner at the end of all rounds.
+- **SoundManager Singleton**: Centralized sound management to prevent duplicate or overlapping audio playback.
+
+### 🌙 5. Dark/Light Mode Asset Support
+- **Adaptive Card Assets**: Images such as globe illustrations adjust automatically based on the system theme (dark or light mode).
+
+---
+
+## 📸 Screenshots
+
+<p align="center"><strong>Menu</strong></p>
+<p align="center">
+   <img src="./Screenshots/MenuPL.png" alt="Menu Portrait Light" width="200"/> 
+   <img src="./Screenshots/MenuPD.png" alt="Menu Portrait Dark" width="200"/> 
+   <img src="./Screenshots/MenuLL.png" alt="Menu Landscape Light" width="200"/> 
+   <img src="./Screenshots/MenuLD.png" alt="Menu Landscape Dark" width="200"/> 
+</p>
+
+<p align="center"><strong>Game Interface</strong></p>
+<p align="center">
+   <img src="./Screenshots/GameL" alt="Game Light" width="200"/> 
+   <img src="./Screenshots/GameD" alt="Game Dark" width="200"/> 
+</p>
+
+<p align="center"><strong>Game Results</strong></p>
+<p align="center">
+   <img src="./Screenshots/ResultPL.png" alt="Result Portrait Light" width="200"/> 
+   <img src="./Screenshots/ResultPD.png" alt="Result Portrait Dark" width="200"/> 
+   <img src="./Screenshots/ResultLL.png" alt="Result Landscape Light" width="200"/> 
+   <img src="./Screenshots/ResultLD.png" alt="Result Landscape Dark" width="200"/> 
+</p>
+
+---
+
+## 🎥 Demo Video
+
+<p align="center">
+  <a href="https://youtu.be/YOUR_DEMO_LINK_HERE">
+    <img src="https://img.youtube.com/vi/YOUR_DEMO_LINK_HERE/mq2.jpg" alt="Card Clash Demo" style="width:60%; height:auto;">
+  </a>
+</p>
+
+---
+
+## 🚀 Installation
+
+To install this project:
+
+1. **Clone the Repository**
 ```bash
-git clone https://github.com/your-username/card-battle-game.git
-cd card-battle-game
+git clone https://github.com/YourUsername/Card-Clash-iOS.git
 ```
+2.	Open in Xcode
+•	Open Card-Clash.xcodeproj or Card-Clash.xcworkspace in Xcode.
+3.	Assets Setup
+•	Ensure SVG card images and sounds are located in the appropriate asset catalogs or groups.
+•	Add files such as background_music.mp3, card_flip.mp3, winner_sound.mp3, etc. to the project and include them in the build target.
+4.	Run the App
+•	Use the iOS Simulator or a physical device.
+•	The app is optimized for landscape orientation.
 
-2. Open in Xcode
+🧭 Getting Started
 
-Double-click Demo Game.xcodeproj or Demo Game.xcworkspace.
-
-3. Set up resources
-	•	Make sure all .mp3 files are included in the Sounds folder as a folder reference (blue folder icon).
-	•	All card and UI images should be added to Assets.xcassets with light/dark variations if applicable.
-
-4. Build & Run
-
-Select a device or simulator and click Run ▶️.
-
-⸻
-
-🎵 Audio Integration
-	•	All sounds are handled by SoundManager.swift using AVAudioPlayer.
-	•	Background music resumes/pauses when the app enters or exits the foreground.
-	•	Round result sounds play based on outcome.
+Once the app is launched, players can input their name, begin the match, and enjoy a quick series of card flips. Sound and UI transitions enhance the experience for both casual and competitive users.
 
 ⸻
 
-🌗 Light & Dark Mode
+📬 Contact
 
-Images like background or UI icons should use Appearances: Any, Dark in the asset catalog. The game automatically switches based on system theme.
-
-⸻
-
-🧪 Future Improvements
-	•	Add multiplayer support
-	•	Leaderboard and stats tracking
-	•	Custom decks and animations
-	•	Haptics feedback
-	•	Sound toggle in settings
+For feedback, suggestions, or opportunities, feel free to reach out via email.
 
 ⸻
 
-🧑‍💻 Author
-
-Itay Biton
-fire-arc.com
-Email: itay.b@fire-arc.com
+📄 MIT License
 
 ⸻
 
-📄 License
+🧑‍💼 Note to Recruiters
 
-This project is licensed under the MIT License.
+This project is part of my personal portfolio. If you’re interested in discussing collaboration or opportunities, you’re welcome to get in touch.
