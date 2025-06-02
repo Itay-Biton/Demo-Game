@@ -47,9 +47,9 @@
 
 <p align="center"><strong>Game Results</strong></p>
 <p align="center">
-   <img src="./Screenshots/ResultPL.png" alt="Result Portrait Light" width="200"/> 
-   <img src="./Screenshots/ResultPD.png" alt="Result Portrait Dark" width="200"/> 
-   <img src="./Screenshots/ResultLL.png" alt="Result Landscape Light" width="200"/> 
+   <img src="./Screenshots/ResultsPL.png" alt="Result Portrait Light" width="200"/> 
+   <img src="./Screenshots/ResultsPD.png" alt="Result Portrait Dark" width="200"/> 
+   <img src="./Screenshots/ResultsLL.png" alt="Result Landscape Light" width="200"/> 
    <img src="./Screenshots/ResultLD.png" alt="Result Landscape Dark" width="200"/> 
 </p>
 
