@@ -62,9 +62,7 @@
 ## 🎥 Demo Video
 
 <p align="center">
-  <a href="https://youtu.be/YOUR_DEMO_LINK_HERE">
-    <img src="https://img.youtube.com/vi/YOUR_DEMO_LINK_HERE/mq2.jpg" alt="Card Clash Demo" style="width:60%; height:auto;">
-  </a>
+  <iframe width="560" height="315" src="https://youtu.be/TL5LfR6o40w?si=fg5VHxpJYctEoLHf" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </p>
 
 ---
