@@ -61,9 +61,7 @@
 
 ## 🎥 Demo Video
 
-<p align="center">
-  <iframe width="560" height="315" src="https://youtu.be/TL5LfR6o40w?si=fg5VHxpJYctEoLHf" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</p>
+[![Watch the video](https://img.youtube.com/vi/TL5LfR6o40w/0.jpg)](https://youtu.be/TL5LfR6o40w)
 
 ---
 
